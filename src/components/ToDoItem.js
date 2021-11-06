@@ -8,7 +8,7 @@ function ToDoItem(props) {
       onClick={() => {
         onChecked(props.id);
       }}>
-      <li>{props.text}</li>
+      {props.text}
     </div>
   );
 }
